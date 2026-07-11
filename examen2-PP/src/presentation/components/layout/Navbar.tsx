@@ -7,12 +7,10 @@ const enlaces =
   { to: "/proyeccion-anual", texto: "Proyección anual", icono: CalendarDays },
 ];
 
-export const Navbar = () => 
-{
+export const Navbar = () => {
   const location = useLocation();
 
-  return 
-  (
+  return (
     <nav className="bg-emerald-800 text-white shadow-md">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 gap-2">
