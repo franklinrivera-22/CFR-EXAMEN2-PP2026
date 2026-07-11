@@ -23,7 +23,7 @@ export interface FilaMensual {
 }
 
 export interface FilaAnual {
-  anio: number;
+  año: number;
   saldo: number;
   interesGenerado: number;
 }
