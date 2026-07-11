@@ -13,8 +13,7 @@ export const ProyeccionMensualPage = ({ datos }: Props) =>
 {
   if (!datos) 
     {
-    return 
-    (
+    return (
     <div className="max-w-5xl mx-auto p-4 md:p-6">
     <div className="bg-white rounded-lg shadow-md p-8 flex flex-col items-center text-center gap-2 text-gray-500">
         <Inbox size={32} />
